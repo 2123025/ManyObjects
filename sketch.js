@@ -21,6 +21,7 @@ function draw() {
 
     mover.update();
     mover.show();
+    mover.drawOn(canvas);
 
     if(mouseIsPressed) {
       mover.attract(mousePos);
